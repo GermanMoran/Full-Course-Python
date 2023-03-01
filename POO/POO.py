@@ -27,7 +27,7 @@ class carro():
 
     
     def estado(self):
-        print("El carro tiene: ",self.__ruedas," ruedas, un lardo de chasis de: ",self.__largoChasis," y un ancho de chasis de: ",self.__anchoChasis)
+        print("El carro tiene  : ",self.__ruedas," ruedas, un lardo de chasis de: ",self.__largoChasis," y un ancho de chasis de: ",self.__anchoChasis)
 
 
 
