@@ -45,8 +45,8 @@ class Moto(vehiculos):
 
 
 # Clase vehiculos electricos
-class vElectricos():
-    def __init__(self):
+class vElectricos(vehiculos):
+    def __init__(self,marca,modelo):
         # Numero de km que recorrera el vehiculo
         self.autonomia = 100
     
@@ -72,13 +72,16 @@ miFurgoneta.carga(10)
 # La bicicleta electrica puede tener comportamiento de 2 clases
 # clase vehiculo - clase vehiculos electricos
 
+
+
 # HERENCIA MULTIPLE - SE HEREDA DE 2 CLASES
 # Nota: Cuando hay herencia multiple se da preferencia a la primera clase que se colque.
+# La función super() llama al metodo de la clase padre
 # ===============================================================================================
 
 class bicicletaElectrica(vElectricos,vehiculos):
     pass
 
 # se crea una instancia de la clase
-miBici = bicicletaElectrica()
+miBici = bicicletaElectrica("GW","1996")
 miBici.cargarEnergia()
