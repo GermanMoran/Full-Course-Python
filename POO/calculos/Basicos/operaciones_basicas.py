@@ -1,9 +1,4 @@
-# Para crear un paquete siempre se debe utilizar e archivo __init__. en cada carpeta/modulo
-# Primer modulo; permite realizar diversas operaciones matematicas
-# Podemos agregar tanto modulos queramos en un paquete
-
-
-# METODOS DEL MODULO
+# METODOS DEL MODULO BASICOS
 # ==================================================================
 
 def suma(num1,num2):
@@ -17,6 +12,3 @@ def producto(num1,num2):
 
 def diviosn(num1,num2):
     print("La division  es: ",num1/num2)
-
-def poryencia(base,exponente):
-    print("La potencia  es: ",base**exponente)
